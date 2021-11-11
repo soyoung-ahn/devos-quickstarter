@@ -1,8 +1,10 @@
 ---
 
-    
-- name: debug 
+- name: install boto 
   command: pip3 install boto
+    
+- name: install boto3 
+  command: pip3 install boto3
 
 - name: Create EC2 Instance
   ec2_instance:
@@ -14,5 +16,5 @@
     security_group: "{{ sec_group }}"
     name: "{{ instance_name }}"
     
-- name: debug 
+- name: debug sleep 
   command: sleep 5m
