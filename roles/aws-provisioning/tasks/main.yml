@@ -1,6 +1,6 @@
 ---
 - name: Create EC2 Instance
-  amazon.aws.ec2:
+  ec2:
     key_name: "{{ key_name }}"
     image: "{{ image }}"
     instance_type: "{{ instance_type }}"
