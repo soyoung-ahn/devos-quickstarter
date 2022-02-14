@@ -6,15 +6,15 @@ files:
 permissions:
   - object: /apache-tomcat-8.5.75/webapps/app
     pattern: "**"
-    owner: tomcat
-    group: tomcat
+    owner: ec2-user
+    group: ec2-user
     mode: 644
     type:
       - file
   - object: /apache-tomcat-8.5.75/webapps/app
     pattern: "**"
-    owner: tomcat
-    group: tomcat
+    owner: ec2-user
+    group: ec2-user
     mode: 755
     type:
       - directory 
