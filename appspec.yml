@@ -2,16 +2,16 @@ version: 0.0
 os: linux
 files:
   - source: app
-    destination: /usr/share/tomcat8/webapps/
+    destination: /apache-tomcat-8.5.75/webapps/
 permissions:
-  - object: /usr/share/tomcat8/webapps/app
+  - object: /apache-tomcat-8.5.75/webapps/app
     pattern: "**"
     owner: tomcat
     group: tomcat
     mode: 644
     type:
       - file
-  - object: /usr/share/tomcat8/webapps/app
+  - object: /apache-tomcat-8.5.75/webapps/app
     pattern: "**"
     owner: tomcat
     group: tomcat
