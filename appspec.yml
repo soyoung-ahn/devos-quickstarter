@@ -2,16 +2,16 @@ version: 0.0
 os: linux
 files:
   - source: app
-    destination: /apache-tomcat-8.5.75/webapps/
+    destination: /apache-tomcat-9.0.59/webapps/
 permissions:
-  - object: /apache-tomcat-8.5.75/webapps/app
+  - object: /apache-tomcat-9.0.59/webapps/app
     pattern: "**"
     owner: ec2-user
     group: ec2-user
     mode: 644
     type:
       - file
-  - object: /apache-tomcat-8.5.75/webapps/app
+  - object: /apache-tomcat-9.0.59/webapps/app
     pattern: "**"
     owner: ec2-user
     group: ec2-user
