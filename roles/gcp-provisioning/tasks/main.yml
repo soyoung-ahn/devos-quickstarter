@@ -42,6 +42,8 @@
     zone: "{{zone}}"
     project: "{{project}}"
     auth_kind: "{{auth_kind}}"
+    labels:
+      swqa : "devops"
   register: instance
 
 - name: Print Debug Message
