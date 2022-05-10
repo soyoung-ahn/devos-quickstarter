@@ -16,3 +16,5 @@
       version: latest
     location: "{{location}}"
     virtual_network_name: "{{virtual_network_name}}"
+    tags: 
+      SWQA : "DevOps"
