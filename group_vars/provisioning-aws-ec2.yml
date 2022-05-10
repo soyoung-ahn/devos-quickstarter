@@ -1,9 +1,8 @@
 ---
-key_name: "SSH 키 파일명을 입력하세요."
-region: "AWS 리전 아이디를 입력하세요."
-image: "EC2 이미지 아이디 입력하세요."
-sec_group: "Security Group 아이디를 입력하세요."
-vpc_subnet_id: "Subnet 아이디를 입력하세요."
-instance_name: "Instance 이름을 입력하세요."
-instance_type: "Instance 타입을 입력하세요."
+key_name: "soyoung.ahn-2"
+region: "ap-northeast-2"
+image: "ami-0a2778941dc6f2820"
+sec_group: "sg-03252da9fdcf08949"
+vpc_subnet_id: "subnet-1af11756"
+instance_type: "t2.nano"
 
