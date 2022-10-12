@@ -3,7 +3,7 @@
   amazon.aws.ec2_instance:
     name: "{{ instance_name }}"
     key_name: "{{ key_name }}"
-    image: "{{ image }}"
+    image_id: "{{ image }}"
     instance_type: "{{ instance_type }}"
     region: "{{ region }}"
     vpc_subnet_id: "{{ vpc_subnet_id }}"
