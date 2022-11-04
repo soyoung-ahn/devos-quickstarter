@@ -1,5 +1,5 @@
 ---
-- connection: local
+- hosts: localhost
   gather_facts: False
   vars_files:
     - group_vars/provisioning-aws-ec2.yml
