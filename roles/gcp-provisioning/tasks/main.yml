@@ -23,6 +23,8 @@
     region: "{{ region }}"
     project: "{{ project }}"
     auth_kind: "{{ auth_kind }}"
+    labels:
+      swqa : "devops"
   register: address
 
 - name: create a instance
