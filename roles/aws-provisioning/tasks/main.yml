@@ -1,5 +1,5 @@
----
-- name: Create EC2 Instance
+---- 
+  name: Create EC2 Instance
   ec2:
     key_name: "{{ key_name }}"
     image: "{{ image }}"
